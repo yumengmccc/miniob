@@ -82,6 +82,8 @@ public:
 
   RC sync();
 
+  RC destroy(const char* dir)
+
 public:
   RC commit_insert(Trx *trx, const RID &rid);
   RC commit_delete(Trx *trx, const RID &rid);
